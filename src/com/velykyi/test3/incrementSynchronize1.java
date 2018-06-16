@@ -10,7 +10,6 @@ public class incrementSynchronize1 {
         synchronized (this){
             return value++;
         }
-
     }
 }
 
@@ -34,6 +33,5 @@ class incrementSynchronize3 {
             lock.unlock();
         }
         return value;
-
     }
 }
